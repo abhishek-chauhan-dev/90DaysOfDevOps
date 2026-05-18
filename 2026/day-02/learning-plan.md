@@ -73,3 +73,8 @@ $ - You're a normal user (# means root/admin)
 - touch
 - rm <file-name>
 - history
+
+# Linux architecture
+
+<img width="428" height="356" alt="image" src="https://github.com/user-attachments/assets/e8d89b5b-a364-4d7f-b569-b087cf88f3bd" />
+

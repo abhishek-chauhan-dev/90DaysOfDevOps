@@ -58,5 +58,10 @@ Usage:
 - which (command)
 - command -v (command)
 
+(c) type: shows the type of a command
+
+Usage:
+- type (command)
+
 # Processes:
 - top/htop: shows live processes

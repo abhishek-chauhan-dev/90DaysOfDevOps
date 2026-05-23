@@ -62,4 +62,4 @@
 
 # Scenario 4: File Permissions Issue
 - ls -l: lists the files along with details of the file i.e., premissions attached to the file, owner & group, the file belongs to
-- Once it is identified that the user is missing necessary permissions, using sudo (temporary root) prviliges, we can update the permissions like this, chmod 755 file-name and perform the further action
+- Once it is identified that the user is missing necessary permissions, using sudo (temporary root) privileges, we can update the permissions like this, chmod 755 file-name and perform the further action

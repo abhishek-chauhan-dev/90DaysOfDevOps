@@ -121,4 +121,9 @@ Usable IPs = 16-2 = 14 IPs
 - Once the request reaches the server. Since the application listens on port 8080, the request is sent through this port to the application and the application receive the request and returns an intended response.
 
 (2) Your app can't reach a database at 10.0.1.50:3306. what would you check first?
-- check if the database service is running or not.
+- Is the database service running?
+- Is it listening on port 3306?
+- Can I reach 10.0.1.50 over the network? (ping, if allowed)
+- Can I connect to port 3306? (nc -vz 10.0.1.50 3306)
+- Are firewall/security group rules blocking access?
+- Are the database credentials correct?
